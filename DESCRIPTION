@@ -1,0 +1,14 @@
+Package: pRodigal
+Type: Package
+Title: Interfacing with the Prodigal gene finder
+Version: 0.0.1
+Date: 2014-12-08
+Author: Thomas Lin Pedersen
+Maintainer: Thomas Lin Pedersen <thomasp85@gmail.com>
+Description: This package creates an interace to Prodigal, a gene finding
+    algorithm for prokaryotic organisms. It uses Biostrings as it main I/O
+    interface and thus plugs easily into Bioconductor
+License: GPL (>= 2)
+Imports:
+    Biostrings,
+    stringr
